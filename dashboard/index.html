@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Urban Demand Warehouse</title>
+<title>UrbanSurge</title>
 <!--
   Demand heatmap and live fleet allocation over 39.2M real NYC taxi trips.
 
@@ -136,7 +136,7 @@ function App(){
 
   return <div className="wrap">
     <header>
-      <h1>Urban Demand Warehouse</h1>
+      <h1>UrbanSurge</h1>
       <span className="sub">NYC TLC 2024 · where should the fleet be tomorrow?</span>
       {health && <span className={"pill "+(health.status==="ok"?"ok":"")}>{health.status}</span>}
       {health && <span className="pill">{health.cells.toLocaleString()} cells</span>}

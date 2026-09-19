@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Urban Demand Warehouse — 39.2M NYC taxi trips</title>
+<title>UrbanSurge — 39.2M NYC taxi trips</title>
 <meta name="description" content="Fleet allocation over 39,033 real zone-hour cells, running client-side. Backtested on held-out months.">
 <!-- Static demo on GitHub Pages. The allocation in allocate.js is the real algorithm,
      verified against the Python by tools/check_js_matches_python.py, running over the
@@ -113,16 +113,16 @@ function App(){
 
   return <div className="wrap">
     <header>
-      <h1>Urban Demand Warehouse — where should the fleet be tomorrow?</h1>
+      <h1>UrbanSurge — where should the fleet be tomorrow?</h1>
       <div className="sub">
         A partitioned Parquet warehouse over <b>39,203,425 real NYC taxi trips</b>, a
         zone × weekday × hour demand mart, and a capacity-constrained allocation
         backtested on held-out months.
       </div>
       <div className="links">
-        <a href="https://github.com/Akgithub2028/urban-demand-warehouse">source on GitHub</a>
-        <a href="https://github.com/Akgithub2028/urban-demand-warehouse/blob/main/DECISIONS.md">DECISIONS.md</a>
-        <a href="https://github.com/Akgithub2028/urban-demand-warehouse/blob/main/outputs/results.json">measured results</a>
+        <a href="https://github.com/Akgithub2028/UrbanSurge">source on GitHub</a>
+        <a href="https://github.com/Akgithub2028/UrbanSurge/blob/main/DECISIONS.md">DECISIONS.md</a>
+        <a href="https://github.com/Akgithub2028/UrbanSurge/blob/main/outputs/results.json">measured results</a>
       </div>
     </header>
 
@@ -183,7 +183,7 @@ function App(){
       <div className="note">
         This is the real algorithm — a bounded min-heap top-k and a greedy capacity fill,
         reimplemented in JavaScript and <a style={{color:"var(--accent)"}}
-        href="https://github.com/Akgithub2028/urban-demand-warehouse/blob/main/tools/check_js_matches_python.py">verified
+        href="https://github.com/Akgithub2028/UrbanSurge/blob/main/tools/check_js_matches_python.py">verified
         against the Python</a> to produce identical assignments. <b>Drag the fleet slider up</b> and
         the gap between <code>revenue_per_hour</code> and <code>trip_volume</code> narrows, because
         the high-value cells saturate and extra drivers must go somewhere worse.

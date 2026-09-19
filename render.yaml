@@ -11,7 +11,7 @@
 # time rather than silently ignoring.
 services:
   - type: web
-    name: urban-demand-warehouse
+    name: urbansurge
     runtime: docker
     dockerfilePath: ./infra/Dockerfile
     dockerContext: .

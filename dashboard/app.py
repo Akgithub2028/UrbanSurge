@@ -21,7 +21,7 @@ DB = Path(os.environ.get("URBAN_DB", ROOT / "data" / "urban.duckdb"))
 OUTPUTS = ROOT / "outputs"
 UI = ROOT / "dashboard" / "index.html"
 
-app = FastAPI(title="Urban Demand Warehouse", version="1.0.0")
+app = FastAPI(title="UrbanSurge", version="1.0.0")
 _cells_cache: Optional[List[Cell]] = None
 
 

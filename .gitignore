@@ -27,3 +27,8 @@ artifacts/*.pt
 artifacts/*.npz
 artifacts/*_cache.json
 services/java-service/target/
+
+# AI configs & notes
+*claude*
+*CLAUDE*
+.claude/

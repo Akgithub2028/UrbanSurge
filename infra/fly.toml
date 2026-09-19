@@ -1,5 +1,5 @@
 # fly deploy --config infra/fly.toml --dockerfile infra/Dockerfile
-app = "urban-demand-warehouse"
+app = "urbansurge"
 primary_region = "ewr"          # the data is New York; keep the app near its readers
 
 [build]
