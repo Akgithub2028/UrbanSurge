@@ -126,5 +126,5 @@
   "loaded_rows": 39203425,
   "excluded_rows": 1966295,
   "excluded_pct": 4.7761,
-  "warehouse": "/Users/aayaann-kausar/Desktop/placements project/05-urban-demand-warehouse/data/warehouse"
+  "warehouse": "data/warehouse"
 }
