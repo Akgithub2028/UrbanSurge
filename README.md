@@ -1,6 +1,6 @@
 <div align="center">
 
-# ⚡ UrbanSurge
+#  UrbanSurge
 ### Enterprise Urban Demand Forecasting & Algorithmic Fleet Optimization Engine
 
 *A high-throughput ML Systems & Data Infrastructure platform modeling **39.2 million real NYC taxi trips** across 39,033 spatio-temporal cells. Integrates an incremental Parquet analytical lakehouse, dual-engine DuckDB/PySpark verification, disciplined time-series forecasting, and a capacity-constrained bounded min-heap dispatch optimizer achieving **+15.98% revenue lift**.*
